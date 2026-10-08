@@ -1,28 +1,32 @@
-# Struk Belanja
+# Struk Belanja & Sistem Kasir
 
-Program struk belanja sederhana dengan Python — tugas kuliah mata kuliah Pemrograman (Sistem Informasi).
+Kumpulan program kasir dengan Python — tugas dan latihan mata kuliah Pemrograman (Sistem Informasi).
 
-## Fitur
-- Input nama toko dan kasir
-- Tambah barang (nama, harga, jumlah) — ketik `selesai` untuk mengakhiri
-- Hitung subtotal otomatis
-- Diskon 5% untuk total belanja >= Rp 100.000
-- Hitung uang bayar dan kembalian
-- Cetak struk belanja yang rapi
+## 1. `struk_belanja.py` — Program Struk Belanja Sederhana
 
-## Cara menjalankan
+Program kasir dasar: input barang, hitung total, diskon 5% untuk belanja >= Rp 100.000, hitung kembalian, cetak struk.
 
 ```bash
 python struk_belanja.py
 ```
 
-## Contoh struk
+## 2. `kasir_lengkap.py` — Sistem Kasir Lengkap
 
+Versi lanjutan dengan fitur:
+
+- **Menu utama** 5 pilihan (tambah barang, lihat stok, transaksi, laporan, keluar)
+- **Manajemen stok**: tambah barang (kode, nama, harga, stok), data tersimpan di `barang.json` sehingga tidak hilang saat program ditutup
+- **Transaksi penjualan**: pilih barang per kode, cek stok otomatis (tidak bisa jual melebihi stok), stok berkurang otomatis setelah pembayaran
+- **Penyimpanan transaksi**: semua penjualan tercatat di `transaksi.csv`
+- **Laporan harian**: total omzet, jumlah item terjual, dan barang terlaris hari ini
+
+```bash
+python kasir_lengkap.py
 ```
-========================================
-            PROGRAM STRUK BELANJA
-========================================
-...
-```
+
+## File data (dibuat otomatis saat program dijalankan)
+
+- `barang.json` — daftar barang dan stok
+- `transaksi.csv` — riwayat penjualan
 
 Dibuat oleh Muhammad Ridho Alfaris.
