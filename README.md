@@ -1,4 +1,4 @@
-# Projek
+# Projek Python Ridhofaris
 
 Kumpulan program Python — tugas dan latihan mata kuliah Pemrograman (Sistem Informasi).
 
@@ -30,6 +30,14 @@ Game sederhana: komputer memilih angka acak 1–100, pemain menebaknya dalam 7 k
 
 ```bash
 python tebak_angka.py
+```
+
+## 4. `cek_spek_pc.py` — Cek Spesifikasi PC
+
+Menampilkan spesifikasi komputer sendiri: sistem operasi, nama komputer, prosesor, jumlah core, versi Python, total RAM, dan info disk. Memakai modul bawaan `platform` dan `os`; info RAM/disk butuh `psutil` (`pip install psutil`).
+
+```bash
+python cek_spek_pc.py
 ```
 
 ## File data (dibuat otomatis saat program dijalankan)
