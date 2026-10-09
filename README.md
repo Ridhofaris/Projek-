@@ -48,6 +48,14 @@ Menampilkan spesifikasi komputer sendiri: sistem operasi, nama komputer, proseso
 python cek_spek_pc.py
 ```
 
+## 5. `batu_gunting_kertas.py` — Game Batu-Gunting-Kertas
+
+Game melawan komputer: pilih batu, gunting, atau kertas, komputer memilih acak. Skor menang/kalah/seri dihitung otomatis. Ketik `keluar` untuk berhenti dan lihat hasil akhir. Latihan if-else, while loop, dan modul random.
+
+```bash
+python batu_gunting_kertas.py
+```
+
 ## File data (dibuat otomatis saat program dijalankan)
 
 - `barang.json` — daftar barang dan stok
