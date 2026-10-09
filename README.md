@@ -1,4 +1,4 @@
-# Struk Belanja & Sistem Kasir
+# Projek
 
 Kumpulan program Python — tugas dan latihan mata kuliah Pemrograman (Sistem Informasi).
 
