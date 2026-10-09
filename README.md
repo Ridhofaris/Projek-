@@ -34,7 +34,15 @@ python tebak_angka.py
 
 ## 4. `cek_spek_pc.py` — Cek Spesifikasi PC
 
-Menampilkan spesifikasi komputer sendiri: sistem operasi, nama komputer, prosesor, jumlah core, versi Python, total RAM, dan info disk. Memakai modul bawaan `platform` dan `os`; info RAM/disk butuh `psutil` (`pip install psutil`).
+Menampilkan spesifikasi komputer sendiri: sistem operasi, nama komputer, prosesor, jumlah core, versi Python, total RAM, dan info disk. Memakai modul bawaan `platform` dan `os`.
+
+> **Penting:** info RAM dan disk membutuhkan modul tambahan `psutil`. Install dulu sebelum menjalankan:
+>
+> ```bash
+> pip install psutil
+> ```
+>
+> Tanpa `psutil`, program tetap jalan tapi info RAM/disk dilewati.
 
 ```bash
 python cek_spek_pc.py
